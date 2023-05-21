@@ -16,10 +16,10 @@ try
             { 
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
 
-                builder.DataSource = "DESKTOP-V1BP2JO\\SQLEXPRESS"; 
-                builder.UserID = "ProgramacionWeb";            
-                builder.Password = "123456";     
-                builder.InitialCatalog = "Escuela";
+                builder.DataSource = ""; //agregar servidor de base de datos
+                builder.UserID = "";     //agregar nombre de usuario       
+                builder.Password = "";   //agregar contraseña  
+                builder.InitialCatalog = ""; //agregar nombre de base de datos
                 builder.Encrypt=false;
             
          
